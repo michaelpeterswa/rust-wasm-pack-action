@@ -1,0 +1,10 @@
+---
+name: "Rust 'wasm-pack' Action"
+description: "GitHub action to wasm-pack a Rust project"
+author: michaelpeterswa
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: package
+  color: blue
